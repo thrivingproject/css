@@ -1,0 +1,29 @@
+/* ----------------------------------------------------------------------------
+                            Boilerplate Website Style
+---------------------------------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;  /* 1rem = 10pt, 1.6rem = 16pt, 7.2rem = 72pt */
+    scroll-behavior: smooth;
+}
+/* Links */
+a,
+a:hover,
+a:active {
+    color: black;
+    text-decoration: none;
+}
+/* list item style */
+ul {
+    list-style-position: inside;
+    list-style-type: none;
+}

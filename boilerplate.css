@@ -57,14 +57,11 @@ p, table {
     padding: 0 10rem;
     border-spacing: 0;
   }
-  
 .table th,
 .table td {
     text-align: left;
-    border-bottom: 1px solid black;
     padding: 1rem;
 }
 tbody tr:nth-child(odd) {
     background-color: #cceeff;
 }
- 

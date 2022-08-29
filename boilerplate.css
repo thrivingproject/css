@@ -30,6 +30,7 @@ ul {
 /* Flex */
 .flex-container {
     height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,9 +45,26 @@ h1 {
 h2 {
     font-size: 2.4rem;
 }
-h3 {
+h3, th {
     font-size: 1.8rem;
 }
 p, table {
     font-size: 1.6rem;
 }
+/* Table */
+.table {
+    width: 100%;
+    padding: 0 10rem;
+    border-spacing: 0;
+  }
+  
+.table th,
+.table td {
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding: 1rem;
+}
+tbody tr:nth-child(odd) {
+    background-color: #cceeff;
+}
+ 
